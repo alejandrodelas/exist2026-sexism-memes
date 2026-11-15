@@ -1,0 +1,7 @@
+data/*.json
+__pycache__/
+.ipynb_checkpoints/
+.venv*/
+.DS_Store
+results/oof/gold_*.json
+results/oof_soft/gold_*.json
