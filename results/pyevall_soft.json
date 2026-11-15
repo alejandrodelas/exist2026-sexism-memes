@@ -1,0 +1,16 @@
+[
+ {
+  "task": "2.1-soft",
+  "model": "hard_trained",
+  "Information Contrast Model Soft": -0.6103,
+  "Normalized Information Contrast Model Soft": 0.4041,
+  "Cross Entropy": 1.0179
+ },
+ {
+  "task": "2.1-soft",
+  "model": "soft_trained",
+  "Information Contrast Model Soft": -0.6402,
+  "Normalized Information Contrast Model Soft": 0.3994,
+  "Cross Entropy": 0.9477
+ }
+]

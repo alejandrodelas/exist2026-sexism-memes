@@ -1,0 +1,13 @@
+task,model,lang,macro_f1
+2.1,ensemble_text_nb_lr_sensor,en,0.6954
+2.1,ensemble_text_nb_lr_sensor,es,0.6457
+2.1,word_char_tfidf_logreg_balanced,en,0.6902
+2.1,word_char_tfidf_logreg_balanced,es,0.6533
+2.1,word_char_tfidf_logreg,en,0.6975
+2.1,word_char_tfidf_logreg,es,0.6343
+2.2,word_char_tfidf_logreg_balanced,en,0.4777
+2.2,word_char_tfidf_logreg_balanced,es,0.4121
+2.2,ensemble_text_nb_lr_sensor,en,0.4617
+2.2,ensemble_text_nb_lr_sensor,es,0.4204
+2.2,word_char_sensor_logreg,en,0.4535
+2.2,word_char_sensor_logreg,es,0.42

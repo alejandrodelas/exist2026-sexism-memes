@@ -1,0 +1,254 @@
+[
+ {
+  "task": "2.1",
+  "model": "char_tfidf_complement_nb",
+  "Information Contrast model": -0.0685,
+  "Normalized Information Contrast Model": 0.4648,
+  "F-Measure": 0.622
+ },
+ {
+  "task": "2.1",
+  "model": "char_tfidf_logreg",
+  "Information Contrast model": 0.0206,
+  "Normalized Information Contrast Model": 0.5106,
+  "F-Measure": 0.6719
+ },
+ {
+  "task": "2.1",
+  "model": "ensemble_text_nb_lr_sensor",
+  "Information Contrast model": 0.0227,
+  "Normalized Information Contrast Model": 0.5117,
+  "F-Measure": 0.6759
+ },
+ {
+  "task": "2.1",
+  "model": "sensor_extra_trees",
+  "Information Contrast model": -0.2778,
+  "Normalized Information Contrast Model": 0.3574,
+  "F-Measure": 0.5124
+ },
+ {
+  "task": "2.1",
+  "model": "word_char_sensor_linearsvc",
+  "Information Contrast model": -0.0301,
+  "Normalized Information Contrast Model": 0.4846,
+  "F-Measure": 0.6604
+ },
+ {
+  "task": "2.1",
+  "model": "word_char_sensor_logreg",
+  "Information Contrast model": -0.0493,
+  "Normalized Information Contrast Model": 0.4747,
+  "F-Measure": 0.6531
+ },
+ {
+  "task": "2.1",
+  "model": "word_char_sensor_logreg_balanced",
+  "Information Contrast model": -0.0457,
+  "Normalized Information Contrast Model": 0.4765,
+  "F-Measure": 0.6569
+ },
+ {
+  "task": "2.1",
+  "model": "word_char_tfidf_linearsvc",
+  "Information Contrast model": 0.0085,
+  "Normalized Information Contrast Model": 0.5043,
+  "F-Measure": 0.6708
+ },
+ {
+  "task": "2.1",
+  "model": "word_char_tfidf_logreg",
+  "Information Contrast model": 0.0187,
+  "Normalized Information Contrast Model": 0.5096,
+  "F-Measure": 0.6726
+ },
+ {
+  "task": "2.1",
+  "model": "word_char_tfidf_logreg_balanced",
+  "Information Contrast model": 0.0094,
+  "Normalized Information Contrast Model": 0.5048,
+  "F-Measure": 0.6746
+ },
+ {
+  "task": "2.1",
+  "model": "word_tfidf_complement_nb",
+  "Information Contrast model": -0.0426,
+  "Normalized Information Contrast Model": 0.4781,
+  "F-Measure": 0.6545
+ },
+ {
+  "task": "2.1",
+  "model": "word_tfidf_logreg",
+  "Information Contrast model": -0.0445,
+  "Normalized Information Contrast Model": 0.4771,
+  "F-Measure": 0.6488
+ },
+ {
+  "task": "2.2",
+  "model": "char_tfidf_complement_nb",
+  "Information Contrast model": -0.5019,
+  "Normalized Information Contrast Model": 0.3212,
+  "F-Measure": 0.403
+ },
+ {
+  "task": "2.2",
+  "model": "char_tfidf_logreg",
+  "Information Contrast model": -0.4703,
+  "Normalized Information Contrast Model": 0.3325,
+  "F-Measure": 0.4203
+ },
+ {
+  "task": "2.2",
+  "model": "ensemble_text_nb_lr_sensor",
+  "Information Contrast model": -0.4345,
+  "Normalized Information Contrast Model": 0.3452,
+  "F-Measure": 0.4469
+ },
+ {
+  "task": "2.2",
+  "model": "sensor_extra_trees",
+  "Information Contrast model": -0.7794,
+  "Normalized Information Contrast Model": 0.2224,
+  "F-Measure": 0.3168
+ },
+ {
+  "task": "2.2",
+  "model": "word_char_sensor_linearsvc",
+  "Information Contrast model": -0.5244,
+  "Normalized Information Contrast Model": 0.3132,
+  "F-Measure": 0.4261
+ },
+ {
+  "task": "2.2",
+  "model": "word_char_sensor_logreg",
+  "Information Contrast model": -0.5052,
+  "Normalized Information Contrast Model": 0.3201,
+  "F-Measure": 0.44
+ },
+ {
+  "task": "2.2",
+  "model": "word_char_sensor_logreg_balanced",
+  "Information Contrast model": -0.5904,
+  "Normalized Information Contrast Model": 0.2897,
+  "F-Measure": 0.4361
+ },
+ {
+  "task": "2.2",
+  "model": "word_char_tfidf_linearsvc",
+  "Information Contrast model": -0.4688,
+  "Normalized Information Contrast Model": 0.333,
+  "F-Measure": 0.4288
+ },
+ {
+  "task": "2.2",
+  "model": "word_char_tfidf_logreg",
+  "Information Contrast model": -0.4395,
+  "Normalized Information Contrast Model": 0.3434,
+  "F-Measure": 0.434
+ },
+ {
+  "task": "2.2",
+  "model": "word_char_tfidf_logreg_balanced",
+  "Information Contrast model": -0.465,
+  "Normalized Information Contrast Model": 0.3344,
+  "F-Measure": 0.4516
+ },
+ {
+  "task": "2.2",
+  "model": "word_tfidf_complement_nb",
+  "Information Contrast model": -0.5427,
+  "Normalized Information Contrast Model": 0.3067,
+  "F-Measure": 0.4277
+ },
+ {
+  "task": "2.2",
+  "model": "word_tfidf_logreg",
+  "Information Contrast model": -0.4681,
+  "Normalized Information Contrast Model": 0.3333,
+  "F-Measure": 0.4239
+ },
+ {
+  "task": "2.3",
+  "model": "char_tfidf_complement_nb",
+  "Information Contrast model": -0.949,
+  "Normalized Information Contrast Model": 0.3066,
+  "F-Measure": 0.3986
+ },
+ {
+  "task": "2.3",
+  "model": "char_tfidf_logreg",
+  "Information Contrast model": -0.9225,
+  "Normalized Information Contrast Model": 0.312,
+  "F-Measure": 0.4106
+ },
+ {
+  "task": "2.3",
+  "model": "ensemble_text_nb_lr_sensor",
+  "Information Contrast model": -0.9181,
+  "Normalized Information Contrast Model": 0.3129,
+  "F-Measure": 0.441
+ },
+ {
+  "task": "2.3",
+  "model": "sensor_extra_trees",
+  "Information Contrast model": -1.4188,
+  "Normalized Information Contrast Model": 0.2108,
+  "F-Measure": 0.2661
+ },
+ {
+  "task": "2.3",
+  "model": "word_char_sensor_linearsvc",
+  "Information Contrast model": -1.2137,
+  "Normalized Information Contrast Model": 0.2526,
+  "F-Measure": 0.4116
+ },
+ {
+  "task": "2.3",
+  "model": "word_char_sensor_logreg",
+  "Information Contrast model": -1.2051,
+  "Normalized Information Contrast Model": 0.2544,
+  "F-Measure": 0.4075
+ },
+ {
+  "task": "2.3",
+  "model": "word_char_sensor_logreg_balanced",
+  "Information Contrast model": -1.3464,
+  "Normalized Information Contrast Model": 0.2256,
+  "F-Measure": 0.4178
+ },
+ {
+  "task": "2.3",
+  "model": "word_char_tfidf_linearsvc",
+  "Information Contrast model": -0.9324,
+  "Normalized Information Contrast Model": 0.3099,
+  "F-Measure": 0.4331
+ },
+ {
+  "task": "2.3",
+  "model": "word_char_tfidf_logreg",
+  "Information Contrast model": -0.9331,
+  "Normalized Information Contrast Model": 0.3098,
+  "F-Measure": 0.4203
+ },
+ {
+  "task": "2.3",
+  "model": "word_char_tfidf_logreg_balanced",
+  "Information Contrast model": -1.0032,
+  "Normalized Information Contrast Model": 0.2955,
+  "F-Measure": 0.4555
+ },
+ {
+  "task": "2.3",
+  "model": "word_tfidf_complement_nb",
+  "Information Contrast model": -1.0579,
+  "Normalized Information Contrast Model": 0.2844,
+  "F-Measure": 0.4308
+ },
+ {
+  "task": "2.3",
+  "model": "word_tfidf_logreg",
+  "Information Contrast model": -1.0124,
+  "Normalized Information Contrast Model": 0.2936,
+  "F-Measure": 0.4007
+ }
+]

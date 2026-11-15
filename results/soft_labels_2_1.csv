@@ -1,0 +1,3 @@
+model,mean_abs_error_vs_vote_share,cross_entropy,corr_with_vote_share
+hard_trained,0.2513,0.7053,0.3985
+soft_trained,0.24,0.6568,0.4114

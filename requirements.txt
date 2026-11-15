@@ -1,0 +1,5 @@
+pandas>=2.0
+numpy>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+# official metric (separate environment, pins an old numpy): pip install pyevall

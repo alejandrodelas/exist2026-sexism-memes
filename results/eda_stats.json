@@ -1,0 +1,12 @@
+{
+  "memes": 3984,
+  "by_language": {
+    "en": 2005,
+    "es": 1979
+  },
+  "annotators_per_meme": 6,
+  "unanimous_share": 0.2371987951807229,
+  "tie_3_3_share": 0.15411646586345382,
+  "median_words": 17.0,
+  "memes_with_sensor_data": 1.0
+}

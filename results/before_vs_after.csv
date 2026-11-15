@@ -1,0 +1,4 @@
+task,submitted_model,submitted_macro_f1,submitted_icm_norm,best_model,best_macro_f1,best_icm_norm
+2.1,word_tfidf_complement_nb,0.6545,0.4781,ensemble_text_nb_lr_sensor,0.6759,0.5117
+2.2,word_char_sensor_linearsvc,0.4261,0.3132,word_char_tfidf_logreg_balanced,0.4516,0.3344
+2.3,char_tfidf_logreg,0.4106,0.312,word_char_tfidf_logreg_balanced,0.4555,0.2955
