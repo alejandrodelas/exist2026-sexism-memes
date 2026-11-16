@@ -10,20 +10,24 @@ I did it for the NLP course (LNR) at UPV in spring 2026 and sent 9 runs in May. 
 
 The data is harder than it looks. Each meme was labelled by six people, and they all agreed on only 24 % of them. The text comes from OCR, so it's short (half the memes have 17 words or fewer) and full of errors.
 
-## What I changed afterwards
+## Going back to it
 
-In May I picked my models with a single 80/20 split and never computed the official metric myself. When I came back to it in November, I wanted to know how good those models really were. So I:
+The competition was closed, but I didn't want to leave it there. In May I had picked my models with a single 80/20 split and never computed the official metric myself, so I didn't really know how good they were. In November I went back and redid the whole system on my own, with the same data and the same kinds of models, but done properly:
 
-- switched to 5-fold cross-validation, with separate English and Spanish models;
-- computed the official ICM metric with the organisers' library, PyEvALL;
-- tried class weights, which turned out to be the biggest improvement, because the rare classes stopped being ignored;
-- trained subtask 2.1 on the share of votes instead of a yes/no label ("learning with disagreement").
+- 5-fold cross-validation instead of a single split, with separate English and Spanish models;
+- the official ICM metric, computed with the organisers' library (PyEvALL);
+- class weights, which turned out to be the biggest improvement, because the rare classes stopped being ignored;
+- for subtask 2.1, training on the share of votes instead of a yes/no label ("learning with disagreement").
+
+It improved all three subtasks:
 
 | Macro-F1 | May 2026 | Now |
 |---|---|---|
 | 2.1 Is it sexist? | 0.654 | 0.676 |
 | 2.2 Author's intention | 0.426 | 0.452 |
 | 2.3 Type of sexism | 0.411 | 0.456 |
+
+These scores come from cross-validation on the training data. The new versions were never ranked, because the competition had already closed, so the official 43rd place is from May.
 
 On the official metric, a small ensemble (Naive Bayes, logistic regression and a sensor model) is the most consistent across the three tasks. The full tables are in [docs/details.md](docs/details.md).
 
