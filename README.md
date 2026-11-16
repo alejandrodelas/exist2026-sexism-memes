@@ -12,7 +12,7 @@ The data is harder than it looks. Each meme was labelled by six people, and they
 
 ## Going back to it
 
-The competition was closed, but I didn't want to leave it there. In May I had picked my models with a single 80/20 split and never computed the official metric myself, so I didn't really know how good they were. In November I went back and redid the whole system on my own, with the same data and the same kinds of models, but done properly:
+The competition was closed, but I didn't want to leave it there. In May I had picked my models with a single 80/20 split and never computed the official metric myself, so I didn't really know how good they were. Later I went back and redid the whole system on my own, with the same data and the same kinds of models, but done properly:
 
 - 5-fold cross-validation instead of a single split, with separate English and Spanish models;
 - the official ICM metric, computed with the organisers' library (PyEvALL);
